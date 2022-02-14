@@ -1,0 +1,49 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  
+
+
+.moto-link{
+    color: rgb(48, 48, 48) !important;
+}
+.moto-text_normal{
+    color: rgb(65, 65, 65);
+}
+.moto-widget-button-label{
+    font-weight: bold;
+    color:#528cf7 ;
+}
+.img-fluid{
+   
+        /* The image used */
+        background-image: url("../images/body/header1.jpg");
+      
+        /* Set a specific height */
+        min-height: 450px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed  !important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+}
+.head{
+    padding-bottom: 0.5rem !important;
+}
+.moto-widget-text-contnet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding: 5rem 3rem;
+}
+.align-items-start:hover{
+ transform: scale(1.05);
+ transition: all ease-out 0.3s;
+}

@@ -1,0 +1,121 @@
+
+
+.launch {
+    height: 50px !important
+}
+
+.close {
+    font-size: 21px !important;
+    cursor: pointer !important
+}
+
+.bookconf{
+    height:60vh !important;
+}
+
+.booknav {
+    border: none !important
+}
+
+.bookingnav .bookingnav.active {
+    color: #495057 !important;
+    background-color: #fff !important;
+    border-color: #ffffff #ffffff #fff !important;
+    border-top: 3px solid #528cf7 !important;
+}
+
+.bookingnav .bookingnav {
+    margin-bottom: -1px !important;
+    border: 1px solid transparent !important;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+    border-top: 3px solid #eee !important;
+    font-size: 20px !important
+}
+
+.bookingnav .bookingnav:hover {
+    border-color: #e9ecef #ffffff #ffffff !important
+}
+
+.bookingnav {
+    display: table !important;
+    width: 100% !important
+}
+
+.bookingitem {
+    display: table-cell !important
+}
+
+.bookform {
+    border-bottom: 1px solid #eee !important;
+    border: none !important;
+    font-weight: 600 !important
+}
+
+.bookform:focus {
+    color: #495057 !important;
+    background-color: #fff !important;
+    border-color: #8bbafe !important;
+    outline: 0 !important;
+    box-shadow: none !important
+}
+
+.inputbox {
+    position: relative !important;
+    margin-bottom: 20px !important;
+    width: 100% !important
+}
+
+.inputbox span {
+    position: absolute !important;
+    top: 7px !important;
+    left: 11px !important;
+    transition: 0.5s !important
+}
+
+.inputbox i {
+    position: absolute !important;
+    top: 13px !important;
+    right: 8px !important;
+    transition: 0.5s !important;
+    color: #528cf7 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0 !important
+}
+
+.inputbox input:focus~span {
+    transform: translateX(-0px) translateY(-15px) !important;
+    font-size: 12px !important
+}
+
+.inputbox input:valid~span {
+    transform: translateX(-0px) translateY(-15px) !important;
+    font-size: 12px !important
+}
+
+.pay button {
+    height: 47px !important;
+    border-radius: 37px !important
+}
+.btn-block{
+background-color: #528cf7 !important;
+border-color: #528cf7 !important;
+}
+.btn-block:hover{
+    background-color: #FFA673 !important;
+    border-color: #FFA673 !important;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19) !important;
+   }
+.launch{
+    background-color: #528cf7 !important;
+    border-color: #528cf7 !important; 
+}
+.launch:hover{
+    background-color: #FFA673 !important;
+    border-color: #FFA673 !important;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19) !important;
+   }
