@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>header</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css' rel='stylesheet' >
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+  
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/contact-us.css">
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+ 
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      
+      <div class="mx-auto order-0">
+        <a href="main.html"> <img src="../images/body/logo.png" style="width: 8rem ; padding: 0;" class="navbar-brand mx-auto" ></a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="list.html">Station And Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About us</a>
+          </li>
+          
+         
+          
+          </ul>
+          <!--modal .........................................-->
+          <button type="button" class="btn btn-info btn-round" data-toggle="modal" data-target="#loginModal">
+            Login
+          </button>
+        </div>
+        
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                Modal body..
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+                <!--end Modal..............................................-->
+      </div>
+    </div>
+  </nav>
+
+ <main>
+  <article>
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-title text-center">
+          <h4>Login</h4>
+        </div>
+        <div class="d-flex flex-column text-center">
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email1"placeholder="Your email address...">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="password1" placeholder="Your password...">
+            </div>
+            <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+          </form>
+          
+          <div class="text-center text-muted delimiter">or use a social network</div>
+          <div class="d-flex justify-content-center social-buttons">
+            <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Twitter">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Facebook">
+              <i class="fab fa-facebook"></i>
+            </button>
+            <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Linkedin">
+              <i class="fab fa-linkedin"></i>
+            </button>
+          </di>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <div class="signup-section">Not a member yet? <a href="#a" class="text-info"> Sign Up</a>.</div>
+      </div>
+  </div>
+</div>
+<!-- partial -->
+
+  
+  </article>
+ </main>
+ 
+  
+
+   
+<div class="container bootstrap snippets bootdeys">
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="contact-detail-box">
+            <i class="fa fa-th fa-3x text-colored"></i>
+            <h4>Get In Touch</h4>
+            <abbr title="Phone">P:</abbr> 01/555 555<br>
+            E: <a href="mailto:email@email.com" class="text-muted">Wasselni-leb@email.com</a>
+          </div>
+        </div><!-- end col -->
+
+        <div class="col-sm-4">
+          <div class="contact-detail-box">
+            <i class="fa fa-map-marker fa-3x text-colored"></i>
+            <h4>Our Location</h4>
+
+            <address>
+            Street-444<br>
+            Lebanon<br>
+          </address>
+          </div>
+        </div><!-- end col -->
+
+        <div class="col-sm-4">
+          <div class="contact-detail-box">
+            <i class="fa fa-book fa-3x text-colored"></i>
+            <h4>Support</h4>
+
+            <p>Wasselni.Further-Faster-Safer</p>
+            
+          </div>
+        </div><!-- end col -->
+
+      </div>
+      <!-- end row -->
+
+   <div class=contact-us>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed/v1/place?q=Lebanon&amp;key=AIzaSyBSFRN6WWGYwmFi498qXXsD2UwkbmD74v4" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 360px;"></iframe>
+          </div>
+        </div><!-- end col -->
+
+        <!-- Contact form -->
+        <div class="col-sm-6">
+          <form role="form" name="ajax-form" id="ajax-form" action="https://formsubmit.io/send/coderthemes@gmail.com" method="post" class="form-main">
+
+            <div class="form-group">
+              <label for="name2">Name</label>
+              <input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'" required onfocus="if(this.value == 'Name') this.value=''" type="text" value="Name">
+              <div class="error" id="err-name" style="display: none;">Please enter name</div>
+            </div> <!-- /Form-name -->
+
+            <div class="form-group">
+              <label for="email2">Email</label>
+              <input class="form-control" id="email2" name="email" type="text" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';" value="E-mail">
+              <div class="error" id="err-emailvld" style="display: none;">E-mail is not a valid format</div> 
+            </div> <!-- /Form-email -->
+
+            <div class="form-group">
+              <label for="message2">Message</label>
+              <textarea class="form-control" id="message2" name="message" rows="5" onblur="if(this.value == '') this.value='Message'" onfocus="if(this.value == 'Message') this.value=''">Message</textarea>
+
+              <div class="error" id="err-message" style="display: none;">Please enter message</div>
+            </div> <!-- /col -->
+
+            <div class="row">            
+              <div class="col-xs-12">
+                <div id="ajaxsuccess" class="text-success">E-mail was successfully sent.</div>
+              
+                <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send">Submit</button>
+              </div> <!-- /col -->
+            </div> <!-- /row -->
+
+          </form> <!-- /form -->
+        </div> <!-- end col -->
+
+      </div> <!-- end row -->
+          
+    </div>
+  </div>
+ 
+
+  <footer class="footer-48201">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 pr-md-5">
+          <a href="#" class="footer-site-logo d-block mb-4">Wasselni</a>
+          <p>is the leading go-to website for booking inter-city bus ticket online. Our booking system allows travelers to search and book bus tickets for over a hundred locations throughout the Country.</p>
+        </div>
+        <div class="col-md">
+          <ul class="list-unstyled nav-links">
+            <li><a href="main.html">Home</a></li>
+            <li><a href="list.html">Station and Tickets</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+          </ul>
+        </div>
+     
+        <div class="col-md">
+          <ul class="list-unstyled nav-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">Partners</a></li>
+          </ul>
+        </div>
+        <div class="col-md">
+          <img src="../images/body/logo.png" style="width: 20rem; margin-top: -2rem;">
+        </div>
+      </div> 
+
+      <div class="row ">
+        <div class="col-12 text-center">
+          <div class="copyright mt-5 pt-5">
+            <p><small>&copy; 2021-2022 All Rights Reserved.</small></p>
+          </div>
+        </div>
+      </div> 
+    </div>
+    
+  </footer>
+ 
+  
+<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<!-- Popper JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+<!-- Bootstrap JS -->
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+ <!-- Custom Script -->      
+
+</body>
+</html>

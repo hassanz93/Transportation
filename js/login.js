@@ -1,0 +1,5 @@
+$(window).ready(function() {             $('#loginModal').modal('show');
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+});

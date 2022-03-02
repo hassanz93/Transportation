@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Confirmation Popup</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/payement.css">
+</head>
+<body>
+    <button type="button" class="btn btn-primary launch" data-toggle="modal" data-target="#staticBackdrop"> <i class="fa fa-rocket"></i> Pay Now
+    </button>
+    <!-- Modal -->
+    <div class="modal fade-booking" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog book">
+            <div class="modal-content bookcnt">
+                <div class="modal-body-conf bookconf">
+                    <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+                    <div class="tabs mt-3">
+                        <ul class="nav nav-tabs bookingnav" id="myTab" role="tablist">
+                            <li class="nav-item bookingitem" role="presentation"> <a class="nav-link active bookinglink" id="visa-tab" data-toggle="tab" href="#visa" role="tab" aria-controls="visa" aria-selected="true"> <img src="../images/body/visa.png" width="80"> </a> </li>
+                            <li class="nav-item bookingitem" role="presentation"> <a class="nav-link bookinglink " id="paypal-tab" data-toggle="tab" href="#paypal" role="tab" aria-controls="paypal" aria-selected="false"> <img src="../images/body/visa2.png" width="80"> </a> </li>
+                        </ul>
+                        <div class="tab-content bookingtab" id="myTabContent">
+                            <div class="tab-pane fade show active bookingfade" id="visa" role="tabpanel" aria-labelledby="visa-tab">
+                                <div class="mt-4 mx-4">
+                                    <div class="text-center book">
+                                        <h5>Credit card</h5>
+                                    </div>
+                                    <div class="form mt-3">
+                                        <form>
+                                        <div class="inputbox"> <input type="text" name="name" class="form-control bookform" required> <span>Cardholder Name</span> </div>
+                                        <div class="inputbox"> <input type="text" name="name" min="1" max="999" class="form-control bookform " required> <span>Card Number</span> <i class="fa fa-eye"></i> </div>
+                                        <div class="d-flex flex-row">
+                                            <div class="inputbox"> <input type="text" name="name" min="1" max="999" class="form-control bookform" required="required"> <span>Expiration Date</span> </div>
+                                            <div class="inputbox"> <input type="text" name="name" min="1" max="999" class="form-control bookform" required> <span>CVV</span> </div>
+                                        </div>
+                                        <div class="px-5 pay">  <button href="#myModal" class="btn btn-primary btn-block" data-toggle="modal"  data-dismiss="modal">Pay</button> </div>
+                                    </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade bookingfade" id="paypal" role="tabpanel" aria-labelledby="paypal-tab">
+                                <div class="px-5 mt-5">
+                                    <div class="inputbox"> <input type="text" name="name" class="form-control bookform" required> <span>Paypal Email Address</span> </div>
+                                    <div class="pay px-5"> <button href="#myModal" class="btn btn-primary btn-block" data-toggle="modal"  data-dismiss="modal">Pay</button> </div>
+                                    
+
+
+    <!-- Modal HTML -->
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal fade-booking">
+        <div class="modal-dialog book modal-confirm ">
+            <div class="modal-content bookcnt">
+                <div class="modal-header bookheader">
+                    <div class="icon-box">
+                        <i class="material-icons">&#xE876;</i>
+                    </div>				
+                    <h4 class="modal-title w-100">Awesome!</h4>	
+                </div>
+                <div class="modal-body bookheader">
+                    <p class="text-center">Your booking has been confirmed. Check your email for detials.</p>
+                </div>
+                <div class="modal-footer bookfooter">
+                    <button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+<style>
+body {
+	font-family: 'Varela Round', sans-serif;
+}
+.modal-confirm {		
+	color: #636363;
+	width: 325px;
+	font-size: 14px;
+}
+.modal-confirm .bookcnt {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-confirm .bookheader {
+	border-bottom: none;   
+	position: relative;
+}
+.modal-confirm h4 {
+	text-align: center;
+	font-size: 26px;
+	margin: 30px 0 -15px;
+}
+.modal-confirm .bookform, .modal-confirm .btn {
+	min-height: 40px;
+	border-radius: 3px; 
+}
+.modal-confirm .close {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}	
+.modal-confirm .bookfooter {
+	border: none;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 13px;
+}	
+.modal-confirm .icon-box {
+	color: #fff;		
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: -70px;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	z-index: 9;
+	background: #528cf7;
+	padding: 15px;
+	text-align: center;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.modal-confirm .icon-box i {
+	font-size: 58px;
+	position: relative;
+	top: 3px;
+}
+.modal-confirm.book {
+	margin-top: 80px;
+}
+.modal-confirm .btn {
+	color: #fff;
+	border-radius: 4px;
+	background: #528cf7;
+	text-decoration: none;
+	transition: all 0.4s;
+	line-height: normal;
+	border: none;
+}
+.book .btn:hover, .modal-confirm .btn:focus {
+	background: #528cf7;
+	outline: none;
+}
+.trigger-btn {
+	display: inline-block;
+	margin: 100px auto;
+}
+</style>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

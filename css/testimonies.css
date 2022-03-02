@@ -1,0 +1,116 @@
+.slide{
+    min-height: 50vh;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color:#fffefe  ;
+    font-family: 'Open Sans';
+   
+ 
+}
+
+#demo {
+    background: linear-gradient(to bottom, #ffffff , #eeeeee ) ;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: rgb(177, 177, 177) 8px 6px 2px 0px;
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+}
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+
+
+@media(max-width:767px) {
+    i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+.fa-arrow-left {
+    background-color: #528cf7 ;
+    opacity: 0.8;
+    padding: 1rem;
+}
+.fa-arrow-right {
+    background-color: #528cf7 ;
+    opacity: 0.8;
+    padding: 1rem;
+}
+.fa-arrow-left:hover{
+   background-color: #FFA673;
+   opacity: 1;
+}
+.fa-arrow-right:hover{
+    background-color: #FFA673;
+    opacity: 1;
+ }
+ .testimonies{
+     margin-top:2rem !important;
+     margin-bottom:4rem !important;
+ }

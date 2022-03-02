@@ -1,0 +1,31 @@
+
+
+.navbar{
+    background-color: #528cf7 !important;
+      padding: 10px 50px 10px 50px !important;
+  }
+  
+  nav ul li a {
+    padding: 0.25em 1em;
+    text-decoration: none; 
+    
+    color: #ffffff !important;
+    
+    }
+    nav ul li a:hover, nav ul li a:focus {
+    color:  rgb(112, 112, 112) !important;
+    
+    }
+    .navbar-brand {
+      color: white;
+    }
+    .navbar-brand :hover :focus{
+      color:  rgb(112, 112, 112) !important;
+    }
+    .navbar-toggler:hover{
+      border-color: white !important;
+    }
+    .logo{
+      color:white !important;
+      margin-bottom: 1rem;
+    }
